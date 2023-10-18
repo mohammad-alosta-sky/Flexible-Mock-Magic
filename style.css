@@ -1,80 +1,102 @@
 /* BASE STYLES */
 * {
-    font-family: sans-serif;
-    font-size: 20px
+  font-family: sans-serif;
+  font-size: 20px;
 }
 .navbar {
-    width: 100vw;
-    background-color: #59D9A1;
-    padding-left: 30px;
-    padding-right: 10px;
+  background-color: #59d9a1;
+  padding-left: 30px;
+  padding-right: 10px;
 }
-  
+
 .logo {
-    display: inline-block;
+  display: inline-block;
 }
-  
+
 .nav-links {
-    list-style: none;
+  list-style: none;
 }
-  
+
 .nav-item a {
-    display: inline-block;
-    padding: 10px 15px;
-    text-decoration: none;
-    color: white;
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
 }
-  
+
 .nav-item:hover {
-    background-color: white;
+  background-color: white;
 }
 
 .sidebar p:hover {
-    background-color: white;
-    color: #242457;
+  background-color: white;
+  color: #242457;
 }
-  
+
 .nav-item:hover a {
-    color: #59D9A1;
+  color: #59d9a1;
 }
-  
+
 .logo img {
-    width: 15%;
-    vertical-align: middle;
+  width: 15%;
+  vertical-align: middle;
 }
 
 .sidebar {
-    background-color: #242457;
-    color: white;
-    padding: 3rem;
+  background-color: #242457;
+  color: white;
+  padding: 3rem;
 }
 
 footer img {
-    width: 3%;
+  width: 3%;
 }
 
 .flex-main {
-    background-color: #F5F5F5;
-    width: 100%;
-    padding-right: 2.5rem;
+  background-color: #f5f5f5;
+  padding-right: 2.5rem;
 }
 
-.image-container{
-    height: 30vh;
-    width: 20vw;
-    background-color: #505FF9;
-    margin: 2rem;
-    color: #fff;
-    border: solid black 1px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.image-container {
+  height: 30vh;
+  width: 20vw;
+  background-color: #505ff9;
+  margin: 2rem;
+  color: #fff;
+  border: solid black 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
-    width: 100%;
-    padding: 1rem;
-    background-color: #59D9A1;
+  padding: 1rem;
+  background-color: #59d9a1;
 }
 
 /* CODE YOUR FLEXBOXES HERE */
+footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.flex-main {
+  display: flex;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+}
