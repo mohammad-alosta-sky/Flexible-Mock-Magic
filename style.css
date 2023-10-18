@@ -100,3 +100,8 @@ footer {
   display: flex;
   flex-wrap: wrap;
 }
+.image-container:nth-child(2),
+.image-container:nth-child(5),
+.image-container:nth-child(8) {
+  flex-grow: 1;
+}
